@@ -1,0 +1,241 @@
+All Important Links
+ For Coroutines: 
+https://www.youtube.com/watch?v=F63mhZk-1-Y&list=PLgCYzUzKIBE_PFBRHFB_aL5stMQg3smhL
+
+Material design
+https://www.youtube.com/watch?v=BEvOBTaYUm0&list=PLlxmoA0rQ-Lzd9-NUrP5Wi18OMi4R-zs_
+
+For Recepie App: 
+https://www.youtube.com/watch?v=zqHPE7Tib-c&list=PLgCYzUzKIBE_I0_tU5TvkfQpnmrP_9XV8  //Completed
+
+Android Compose Tutorials
+https://developer.android.com/jetpack/compose/tutorial
+
+for Animations in Compose
+https://www.raywenderlich.com/13282144-jetpack-compose-animations-tutorial-getting-started
+
+Android studio from Love Babbar: 
+Udacity courses
+Take links from there... 
+
+Send request to coding with mitch to avail resources free of cost...
+
+
+
+
+
+Not able to complete
+font changing
+Icons 
+Shimmering
+SnackBar using Scaffold
+
+Using Navigation controller 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from docs
+
+Touch and input 
+User interface 
+
+https://getintopc.com/softwares/graphic-design/coreldraw-graphic-suite-x8-iso-multilingual-32-64-bit-download-5995539/
+Changes for the todo app 
+
+Category launcher: Will tell which type of category you are going to use
+intent filters: are used to access implicit type of intents, based on the type of intent it can access
+
+@JVM Feild, @JVM Static, @JVMOverloads
+https://blog.mindorks.com/jvmstatic-jvmoverloads-and-jvmfield-in-kotlin
+
+Companion Object: These objects are used to access members or functions of a particular class, without making an instance
+
+Difference between src and src compat
+src compat: use vector drawables (change with the size of object) that's why better than other
+src: arejust png images which will loose image pixels when bigger screen will appear
+that's why src compat is more preferable
+
+
+
+Types of Layout Manager
+
+Android Interview Questions:
+https://www.youtube.com/watch?v=uXYqLh7nikw
+
+
+Async and Sync Task: 
+Threads: Processes a processor can execute,(A single set of instructions) 
+Processes can be accessed parallely
+
+ERROR: Skipped 602 frames!  The application may be doing too much work on its main thread.
+
+UI thread/ Main thread: everything involving drawing a button on screen and then attaching there functions like onClickListeners, these all are handled via UI thread
+  
+So, UI thread is the main thread and if we apply any function or task to waut for 10 secs or so, then it will wait for 10 secs adn then only the main thread will be opened
+Now, to continue to use this we make another thread for waiting and one thread for handling all other activities
+
+
+First way, by making Handler and doing postDelay, {Handler class is used to create and handle different threads in ANdroid}
+ All the work, like downloading files, sharing and saving data to database can take some secs that's why we use threading and work asynchronosly, that way all the handling will become easier
+  
+Another class is AsyncTask, which is better than a handler class (Only for android)
+
+What are dispatchers? ....
+
+
+Concurency, Multithreading
+Working parallely to reduce the the timing of a paticular work, Coroutines are also used for this purpose
+
+THREAD: HArdware(Cores) and Software threads(Android)
+Threads: are basically set of operations, used to run tasks to run parallely
+
+Couroutins are used to handle a lot of threads more efficiently, 'WE can reutilise all the threads, 
+
+What are dispatchers and what are iteration ?
+Different functions of Dispatchers?...
+USage of Open in kotlin Android
+Aync Task working 
+What is Global Scope
+
+Context
+
+Fragments are like activities, we can do every task which we can do in a activity, bu not like activity, it does not have it's own context
+
+What is attach to root?
+
+Setting up a adapter in Fragment??
+
+Fragment: increase the modularity and usage of the activity, example showing multiple fragements in a single activity
+they have different life cycles
+Types of Fragments: Static and Dynamic Fragments	
+add in fragments will add different layers on each other 
+replace fragments will replace different frgments
+//Snding data to frgments
+
+
+Alarms using .....
+
+JSON_ javascript object notation
+
+different 3rd party libraries will be: Gson, Picasso, Retrofit, OKhttp
+
+Okhttp is used just to do the thing only one time 
+to do things multiple times we use Gson 
+
+
+GOOGLE MAPS: 
+STEPS: 
+1. Generate a key of the project
+it contains Static Fragment and we have to use the fragment and also load it up asynchronously and then extend the whole class with OnMapReadyCallBack and then initialise the whole marker
+and latti and longi inside its method named as onMapReady(It initialise on self basis we don't have to do it)
+
+2. Using Polylines in the Maps: 
+
+3. Adding Permissions for Location: Access COurse location in Manifest file, File location use the Gps , course location will use the internet
+
+Map not working(From last location manager and haven't continued last one**Fused location Provider**) *****, SQLite database not working, Networking not happening(retrofit)
+
+
+Writing data to firebase
+Firebase works on the concept of nodes and references and as we add the value to the node it will get saved in that
+
+Add valueEventListener will give entire database again as the database changes
+
+Push nOtification method not found in the firebase*****Not completed
+
+Authentication using Firebase
+copy authentication url using github by searching FIREBASEUI and then add it the gradle file
+
+We will use the startactivity result for the signin and the result will come in form of call back methods of onActivityResult therefore we will check using onActivityResult and then start
+an activity or will show another message regarding network failure or another sign in problems
+
+
+//Null pointer exception, current User must not be null
+
+
+Job scheduler: wrk when there is any task execution 
+
+Create a demo class and extend that to Jobservice and then implement members and then right click and add service to manifest
+
+return true if you want to reschedule this job
+return false if you don't want to reschedule this job
+Then apply JObFinished method in it
+
+JOb scheduler will be needing atleast api level of 21	
+
+Android Jetpacks
+
+Coroutines does not work when the app is closed
+
+1. Work Manager
+ Jetpack components 3rd and 4th video not covered here first i will complete Networking then complete that part
+
+//for removing the null pointer exception 
+https://stackoverflow.com/questions/43359912/firebase-auth-getcurrentuser-java-lang-nullpointerexception 
+
+MVVM- MOdel-view-ViewModel
+Used to write code more efficiently so that you can work along with the team and this is basically a technique so that we can easily understand what ever is happenning, basically 
+a architecture
+
+
+
+
+MVVM and Break DOwn of MVVM
+View->ViewModel->Repository->1. Local DataSource 2. Remote Datasource
+
+View: We will create new UI, it works with ViewModel where we have live data then send request to repository(source to get info), Local source means you are taking information from
+local database(Room) and Remote means u are taking data from Retrofit part, then this info is send back to ViewModel and then it do manipulation based on logic and then return to the
+UI part
+
+View: UI
+View: Presentation Logic, it will show different set of data to different users based on a condition, we can use same view and model, not need to develop another UI
+Model: Basic logic and data
+
+In case of View model when ever we rotate our phone then all the data will be lost and hence we have to retrive data from Local Memory or cached memory
+
+
+
+Unserstanding the Project Structure
+
+1. Add the Picasso library, Retorfir, Gson, Recycler, Coroutines
+2. Add internet connectivity permission in Manifest file
+3. Make packages
+UI: Adapter, ViewModel, Activity
+Data: api part, Model Classes, repos
+utils:
+
+add queries in api, search the users and list of number of users in github
+ First Make a client and then use the interface name as GithubService(Write queries and intefaces in it)
+
+Then add files in models: add users file using pojo generator and site https://api.github.com/users in users name file in models
+ and then add Search REsponse using Pojo generator and make type of list as User type
+
+
+Now create the repos: Here we write all the methods which we use for search
+of type Object
+
+Then create the xml file
+Then create the class inside inside ViewModel: named as GithubViewModel and extend ViewModel inside it
+
+add ViewModel dependency - lifecycle ViewModel ktx
+
+Then will take the list of Users using Api calls
+ 
+Then send the data using live data
+
+Now write searchUsers function to retrive live data
+
+//How to share a viewModel with the fragments
